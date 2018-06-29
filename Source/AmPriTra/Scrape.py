@@ -10,7 +10,7 @@ DestinationUrl = "http://amazon.com"
 
 ChromeOptions = webdriver.ChromeOptions()
 #ChromeOptions.add_argument("--headless")
-ChromeDriverInstance = webdriver.Chrome(executable_path='C:\\Users\Caleb\PycharmProjects\AmazonPriceTracker\Support\chromedriver.exe',
+ChromeDriverInstance = webdriver.Chrome(executable_path='PATH TO CHROMEDRIVER.EXE',
                                         chrome_options=ChromeOptions)
 # driver.implicitly_wait(30)
 ChromeDriverInstance.get(DestinationUrl)
